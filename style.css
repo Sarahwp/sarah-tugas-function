@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#243447;
+}
+section {
+    width : 100%;
+    height: auto;
+    color: #ffff;
+}
+.converter{
+    display:flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+h1{
+    margin-bottom: 30px;
+}
+.answer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width:100%;
+    margin:0 auto;
+}
+.input {
+    display: flex;
+    margin: 15px;
+    background-color: #ffff;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+}

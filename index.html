@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="style.css">
+    <title>Sarah - Jsfunction</title>
+</head>
+<body>
+    <!-- nomor 1 -->
+    <section>
+        <div class = "converter">
+            <h1> Toko Online </h1>
+        </div>
+        <div class = "answer">
+            <input type ="text" id="buyer" class="input" placeholder="Nama">
+            <input type ="text" id="products" class="input" placeholder="Produk Belanjaan">
+            <input type ="button" id="details" class="input" value="Submit">
+        </div>
+        <script src="tugas1.js"></script>
+    </section>
+
+    <!-- nomor 2 -->
+    <section>
+        <div class = "converter">       
+             <h1> Temperature Converter </h1>
+        </div>
+        <div class ="answer">
+            <input type="number" id="celsius" class="input" 
+            placeholder="celsius" oninput = "convertToFar()">
+
+            <input type="number" id="fahrenheit" class="input"
+             placeholder="fahrenheit" oninput = "convertToCel()">
+        </div>
+        <script src="tugas2.js"></script>
+    </section>
+
+    <!--nomor 3  -->
+    <section>
+        <div class = "converter">       
+            <h1> Menghitung umur kucing dalam usia manusia </h1>
+       </div>
+        <div class ="answer">
+        <input type="number" id="years" class="input" placeholder="cat's Age"/>
+        <input type="button" onclick="calculateCatAge(event)" value="Submit" class="input">
+
+        <p> My Cat is : <span id ="outputCat"></span></p>
+        </div>
+        <script src="tugas3.js"></script>
+    </section>
+
+    <!-- nomor 4 -->
+    <section>
+        <div class="converter">
+            <h1> Mengubah format menjadi huruf kecil</h1>
+        </div>    
+        <div class="answer">
+            <input type="text" class="input" onkeyup="" id="inputID">
+        </div>
+        <script src="tugas4.js"></script>
+        </section>
+</body>
+</html>
